@@ -1,0 +1,40 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"traceEvents":[
+{ "cat":"", "pid":1, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"tundra" } }
+,{ "pid":1, "tid":0, "ts":1554814962969, "dur":869, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":1, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1554814963838, "dur":483, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1554814964393, "dur":0, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
+,{ "pid":1, "tid":0, "ts":1554814964407, "dur":1, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":1, "tid":0, "ts":1554814964408, "dur":646, "ph":"X", "name": "Tundra",  "args": { "durationMS":1, "detail":"BuildQueueInit" }}
+,{ "pid":1, "tid":0, "ts":1554832153193, "dur":10490, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":10, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1554832164082, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1554832164489, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1554832164885, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1554832165320, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1554832165726, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1554832166142, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1554832166150, "dur":23854, "ph":"X", "name": "Tundra",  "args": { "durationMS":24, "detail":"Write AllBuiltNodes" }}
+,{ "pid":1, "tid":1, "ts":1554814965772, "dur":9245, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":9, "detail":"Il2Cpp D:/Unity/KeroKero Collector!/Library/Il2cppBuildCache/iOS/il2cppOutput" }}
+,{ "pid":1, "tid":1, "ts":1554814976378, "dur":17067564, "ph":"X", "name": "Il2Cpp",  "args": { "durationMS":17068, "detail":"D:/Unity/KeroKero Collector!/Library/Il2cppBuildCache/iOS/il2cppOutput" }}
+,{ "pid":1, "tid":1, "ts":1554832043948, "dur":34490, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":34, "detail":"Copy Additional C++ File D:/Unity/KeroKero Collector!/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp" }}
+,{ "pid":1, "tid":1, "ts":1554832078731, "dur":55460, "ph":"X", "name": "Copy",  "args": { "durationMS":55, "detail":"Additional C++ File D:/Unity/KeroKero Collector!/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp" }}
+,{ "pid":1, "tid":1, "ts":1554832134191, "dur":19003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":19, "detail":"" }}
+,{ "pid":1, "tid":1, "ts":1554832153195, "dur":10262, "ph":"X", "name": "Exiting",  "args": { "durationMS":10, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":2, "ts":1554814965811, "dur":17187385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":17187, "detail":"" }}
+,{ "pid":1, "tid":2, "ts":1554832153197, "dur":10233, "ph":"X", "name": "Exiting",  "args": { "durationMS":10, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":3, "ts":1554814965813, "dur":17187380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":17187, "detail":"" }}
+,{ "pid":1, "tid":3, "ts":1554832153194, "dur":10270, "ph":"X", "name": "Exiting",  "args": { "durationMS":10, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":4, "ts":1554814965771, "dur":17078208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":17078, "detail":"" }}
+,{ "pid":1, "tid":4, "ts":1554832043980, "dur":34468, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":34, "detail":"Copy Additional C++ File D:/Unity/KeroKero Collector!/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":1, "tid":4, "ts":1554832078710, "dur":74435, "ph":"X", "name": "Copy",  "args": { "durationMS":74, "detail":"Additional C++ File D:/Unity/KeroKero Collector!/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":1, "tid":4, "ts":1554832153146, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"all_tundra_nodes" }}
+,{ "pid":1, "tid":4, "ts":1554832153154, "dur":61, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":4, "ts":1554832153215, "dur":10238, "ph":"X", "name": "Exiting",  "args": { "durationMS":10, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":5, "ts":1554814965809, "dur":17187390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":17187, "detail":"" }}
+,{ "pid":1, "tid":5, "ts":1554832153199, "dur":10230, "ph":"X", "name": "Exiting",  "args": { "durationMS":10, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":6, "ts":1554814965816, "dur":17187412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":17187, "detail":"" }}
+,{ "pid":1, "tid":6, "ts":1554832153229, "dur":10200, "ph":"X", "name": "Exiting",  "args": { "durationMS":10, "detail":"BuildLoop" }}
+
+]
+}
